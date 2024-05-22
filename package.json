@@ -1,0 +1,37 @@
+{
+  "name": "moxy-web",
+  "version": "0.0.1",
+  "description": "Web UI for moxy",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thekhanj/moxy-web.git"
+  },
+  "source": [
+    "src/index.html"
+  ],
+  "keywords": [
+    "moxy",
+    "proxy",
+    "transparent-proxy"
+  ],
+  "author": "Pooyan Khanjankhani <pooyankhan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thekhanj/moxy-web/issues"
+  },
+  "homepage": "https://github.com/thekhanj/moxy-web#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
