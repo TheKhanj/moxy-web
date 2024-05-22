@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 
-import { App } from "./app";
+import { AppRouter } from "./router";
 
 function init() {
   const container = document.getElementById("root");
@@ -11,7 +11,7 @@ function init() {
 
   const root = createRoot(container);
 
-  root.render(<App />);
+  root.render(<AppRouter />);
 }
 
 init();
